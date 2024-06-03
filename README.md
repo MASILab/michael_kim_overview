@@ -40,7 +40,7 @@ Extension of SPIE 2024 - Characterization of NeRF-based techniques for reconstru
 
 Github: https://github.com/MASILab/Diff_MRI_Harmonization.git (and R01_Data_Organization)
 
-Organized and preprocessed the majority of the datasets for the ADSP/R01 grants. Created a script generator that allows for easy and standardized preprocessing of data on ACCRE, given that data is in BIDS format. Also created a few query tools that do various tasks, such as summarize the preprocessing that has been run, number of shells, etc.
+Organized and preprocessed the majority of the datasets for the ADSP/R01 grants. Created a script generator that allows for easy and standardized preprocessing of data on ACCRE (or locally as well), given that data is in BIDS format. Also created a few query tools that do various tasks, such as summarize the preprocessing that has been run, number of shells, etc.
 
 ## EXTRA: Atlas Registration from T1 space to Diffusion Space
 
