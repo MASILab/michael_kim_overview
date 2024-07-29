@@ -36,6 +36,16 @@ Data: XNAT: NeRF_Surface_Landman: https://xnat.vanderbilt.edu/xnat/data/projects
 
 Extension of SPIE 2024 - Characterization of NeRF-based techniques for reconstruction of human organ tissue surfaces. We assess multiple points in the processing pipeline (image acquisition and surface reconstruction) to determine what aspects of organ surfaces make reconstruction difficult and what solutions work best to optimize surface reconvery. We find that addition of external features in the image scene help with feature matching of the images, particularly when only adding a few eternal fiducials. We also find that modification of the specular estimator of the nerf2mesh implementation did not provide better surface recovery. However, having a high laplacian regularization helps remove/alleviate areas of low-density estimation. Building a shape model to fix the estimated density field also did not provide a successful solution.
 
+
+## 4.) Scalable, reproducible, and cost-effective processing of large-scale medical imaging datasets
+
+Github: https://github.com/MASILab/Informatics_ADSP.git
+
+Data: Used MASIVar (timing data is in repo as well)
+
+SPIE 2025 - This paper is an overview paper for the ADSP processing methodology, descibing how we designed our data storage and processing to fit within specified design criteria of large-scale neuroimaging data maintenance. The criteria include (but are not limited to) efficiency, cost-effectiveness, and reproducibility. We demonstrate how our method performs similarly to other options while maintaining a nearly 20x lower cost-performance ratio, while remaining low complexity on our end for manual effort.
+
+
 ## EXTRA: ADSP/R01 Diffusion Data Organization
 
 Github: https://github.com/MASILab/Diff_MRI_Harmonization.git (and R01_Data_Organization)
