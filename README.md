@@ -52,6 +52,14 @@ Github: https://github.com/MASILab/Diff_MRI_Harmonization.git (and R01_Data_Orga
 
 Organized and preprocessed the majority of the datasets for the ADSP/R01 grants. Created a script generator that allows for easy and standardized preprocessing of data on ACCRE (or locally as well), given that data is in BIDS format. Also created a few query tools that do various tasks, such as summarize the preprocessing that has been run, number of shells, etc.
 
+
+## EXTRA: Auto QA of ADSP Processing Pipelines (script generator included)
+
+Github: https://github.com/MASILab/ADSP_AutoQA.git
+
+Code for automated QA of processing pipelines in the ADSP/R01 project. There are 4 ideas/problems that this tool is trying to address: 1.) Promote consistency of data QA, so that everyone on the team is performing QA in the same way. 2.) Facilitates aggregation of QA results across pipelines and datasets, as changes are automatically pushed to a CSV file that indicates the QA status. Not only does this reduce the manual effort in keeping track of the QA status of processing, but makes it easier to share QA results within lab and with collaborators who use the data. 3.) Gives us a structured organization for the QA of our pipelines/datasets, so that we can easily combine the QA results of multiple pipelines/datasets together. Finally, 4.) it provides a nice graphical user interface for reporting the QA status.
+
+
 ## EXTRA: Atlas Registration from T1 space to Diffusion Space
 
 Github: https://github.com/MASILab/AtlasToDiffusionReg
