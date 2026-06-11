@@ -207,4 +207,5 @@ Github: https://github.com/MASILab/AtlasToDiffusionReg
 
 Created a singularity for deformably registering an atlas to a diffusion scan of a subject using ANTs, fsl, c3d, etc. Requires a T1, a segmentation of the T1 (SLANT preferrably), the preprocessed DWI scan, the structural template and the labelmap/atals, and label files for both the segmentation and the labelmap/atlas. Outputs the transformations and registered atlas, as well as a CSV of the mean, median, and stdev of the tensor metrics for FA, MD, AD, RD.
 
-Signed: Gaurav Rudravaram, June 11 2026
+Signed: Gaurav Rudravaram, June 11 2026 <br>
+Signed: Ema Topolnjak, June 11 2026
