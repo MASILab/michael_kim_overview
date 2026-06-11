@@ -51,6 +51,8 @@ Github: https://github.com/MASILab/Informatics_ADSP.git
 
 Data: Used MASIVar (timing data is in repo as well)
 
+Paper: https://pubmed.ncbi.nlm.nih.gov/41450588/
+
 SPIE 2025 - This paper is an overview paper for the ADSP processing methodology, descibing how we designed our data storage and processing to fit within specified design criteria of large-scale neuroimaging data maintenance. The criteria include (but are not limited to) efficiency, cost-effectiveness, and reproducibility. We demonstrate how our method performs similarly to other options while maintaining a nearly 20x lower cost-performance ratio, while remaining low complexity on our end for manual effort.
 
 Signed: Gaurav Rudravaram, June 11 2026
@@ -60,6 +62,8 @@ Signed: Gaurav Rudravaram, June 11 2026
 ![QA](figures/QA_paper.png)
 
 Github: https://github.com/MASILab/ADSP_AutoQA.git; (New version being maintained by Yihao: https://github.com/MASILab/masi-qa)
+
+Paper: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0327388
 
 PNG generation code: https://github.com/MASILab/Diff_MRI_Harmonization/tree/main/nfs2_organization_scripts
 
@@ -73,6 +77,8 @@ Signed: Ema Topolnjak, June 11 2026
 ## 6.) White matter micro- and macrostructure brain charts for the human lifespan
 
 ![lifespan](figures/lifespan.png)
+
+Paper: https://www.nature.com/articles/s41586-026-10454-2
 
 Github: https://github.com/MASILab/WMLifespan
 - `lifespan` contains the core code/functions for fitting, manipulating, OOS alignment, and extraction of the curves
@@ -102,6 +108,8 @@ Signed: Gaurav Rudravaram, June 11 2026
 
 Github: https://github.com/MASILab/WMLifespan/tree/main/scripts/ModelConfidence
 
+Paper: https://pubmed.ncbi.nlm.nih.gov/41659596/
+
 SPIE 2026 - We characterized the analytic and empirical (LOSO bootstrapping) stability of the WM brain chart trajectories across the lifespan. We found that the charts were highly stable.
 
 Signed: Gaurav Rudravaram, June 11 2026
@@ -109,6 +117,8 @@ Signed: Gaurav Rudravaram, June 11 2026
 ## 8.) Charting Confidence in White Matter Brain Charts: Enabling Study Planniung Through Stability Validation
 
 ![jmi_model_conf](figures/model_confidence_JMI.png)
+
+Paper submitted, not on Arxiv.
 
 Github:
 - New analytic method: https://github.com/MASILab/WMLifespan/tree/main/scripts/ModelConfidence/AnalyticWithRE
@@ -121,6 +131,8 @@ Github:
 ## 9.) Enhancing Reproduciblity in Neuroimaging with Containerized Archival
 
 ![containerization](figures/containerization.png)
+
+Paper submitted, not on Arxiv.
 
 Github: https://github.com/MASILab/Informatics_ADSP/tree/main/containerization
 - also these Zenodo pages:
@@ -144,6 +156,8 @@ Github: https://github.com/MASILab/WM_genetics
 ## 11.) QA Paper with Yihao (Yihao is corresponding author)
 
 ![qa_yihao](figures/qa_yihao.png)
+
+Paper submitted, not on Arxiv.
 
 Github: https://github.com/MASILab/Diff_MRI_Harmonization/tree/main/nfs2_organization_scripts/Yihao_QA
 
