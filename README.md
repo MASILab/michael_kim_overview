@@ -82,6 +82,8 @@ Signed: Ema Topolnjak, June 11 2026
 
 Paper: https://www.nature.com/articles/s41586-026-10454-2
 
+Raw data is backed up to Amazon Glacier (ADSP). Spreadsheet of metrics is at /valiant02/masi/kimm58/LifespanRevisions/all_centiles/wmlifespan_all_data.csv
+
 Github: https://github.com/MASILab/WMLifespan
 - `lifespan` contains the core code/functions for fitting, manipulating, OOS alignment, and extraction of the curves
 - `scripts` contains all the scripts/python notebooks used to run analyses using the base `lifespan` code
@@ -110,6 +112,8 @@ Signed: Gaurav Rudravaram, June 11 2026
 
 Github: https://github.com/MASILab/WMLifespan/tree/main/scripts/ModelConfidence
 
+Raw data is backed up to Amazon Glacier (ADSP). Spreadsheet of metrics is at /valiant02/masi/kimm58/LifespanRevisions/all_centiles/wmlifespan_all_data.csv
+
 Paper: https://pubmed.ncbi.nlm.nih.gov/41659596/
 
 SPIE 2026 - We characterized the analytic and empirical (LOSO bootstrapping) stability of the WM brain chart trajectories across the lifespan. We found that the charts were highly stable.
@@ -119,6 +123,8 @@ Signed: Gaurav Rudravaram, June 11 2026
 ## 8.) Charting Confidence in White Matter Brain Charts: Enabling Study Planniung Through Stability Validation
 
 ![jmi_model_conf](figures/model_confidence_JMI.png)
+
+Raw data is backed up to Amazon Glacier (ADSP). Spreadsheet of metrics is at /valiant02/masi/kimm58/LifespanRevisions/all_centiles/wmlifespan_all_data.csv
 
 Paper submitted, not on Arxiv.
 
@@ -134,6 +140,8 @@ Signed: Gaurav Rudravaram, June 11 2026
 ## 9.) Enhancing Reproduciblity in Neuroimaging with Containerized Archival
 
 ![containerization](figures/containerization.png)
+
+Raw data is backed up to Amazon Glacier (ADSP) - DLBS dataset.
 
 Paper submitted, not on Arxiv.
 
@@ -162,6 +170,8 @@ Github: https://github.com/MASILab/WM_genetics
 
 Paper submitted, not on Arxiv.
 
+Raw data is backed up to Amazon Glacier (ADSP).
+
 Github: https://github.com/MASILab/Diff_MRI_Harmonization/tree/main/nfs2_organization_scripts/Yihao_QA
 
 (Submitted to JMI) - Characterization and how-to for QC of interdependent dMRI data processing pipelines.
@@ -173,6 +183,8 @@ Signed: Gaurav Rudravaram, June 11 2026
 ![slice_permutation](figures/reordering.png)
 
 Github: https://github.com/MASILab/slice_permutation_BPR
+
+Raw data is backed up to Amazon Glacier (ADSP).
 
 (WIP - will try to submit to SPIE 2027) - A proposed method for detecting when slices in medical images are misordered and then properly aligning them, with the idea that the tool can be used as a QC sanity check for clinical images. Preliminary results are promising, but we will have to see.
 
