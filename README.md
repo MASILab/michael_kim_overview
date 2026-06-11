@@ -30,7 +30,9 @@ https://www.biorxiv.org/content/10.1101/2023.09.22.558989v1
 
 
 SPIE 2024 paper - A characterization of low-cost photogrammetry techniques for surface reconstruction. Using surfaces obtained from CT images as the ground truth, we assess the quality of the photogrammetry surfaces obtained from Neural Radiance Fields (NeRF, as instant-ngp implementation) and the VECTRA H1 3D Imaging System of a hip implant, a knee implant, and a steak.  First, we register the photogrammetry surfaces to the ground truth CT. We then use fiducial registration error and average surface distance as metrics to assess quality. We find that the H1 camera provides smooth surfaces, but cannot reconstruct objects that are larger or have sharp changes in geometry. Whereas NeRF has the capability to capture finer detail, the surfaces are much noisier and more artifact-prone. Our conclusion was that NeRF-based methods have the greater potential, but improvements need to be made to the implementation.
-Signed: Gaurav Rudravaram, June 11 2026
+
+Signed: Gaurav Rudravaram, June 11 2026 <br>
+Signed: Ema Topolnjak, June 11 2026
 
 ## 3.) Characterization of Neural Radiance Field-Based 3D Reconstruction of Organ Tissue Surfaces (technical paper)
 
@@ -57,7 +59,8 @@ Paper: https://pubmed.ncbi.nlm.nih.gov/41450588/
 
 SPIE 2025 - This paper is an overview paper for the ADSP processing methodology, descibing how we designed our data storage and processing to fit within specified design criteria of large-scale neuroimaging data maintenance. The criteria include (but are not limited to) efficiency, cost-effectiveness, and reproducibility. We demonstrate how our method performs similarly to other options while maintaining a nearly 20x lower cost-performance ratio, while remaining low complexity on our end for manual effort.
 
-Signed: Gaurav Rudravaram, June 11 2026
+Signed: Gaurav Rudravaram, June 11 2026 <br>
+Signed: Ema Topolnjak, June 11 2026
 
 ## 5.) Scalable quality control on processing of large diffusion-weighted and structural magnetic resonance imaging datasets
 
@@ -104,7 +107,8 @@ Public data release (data that we got approval to release publicly): https://zen
 
 Nature - We made microstructural and macrostrucutral brain charts for the Human lifespan from 0 to 100 years of age for 72 different WM tracts in the brain. We showed their utility in identifying normative population trajectories for white matter, testing neurobiological hypotheses, and performing anomaly detection. We also publicly released the charts as well as a method for out-of-sample dataset alignment on Zenodo as a docker container.
 
-Signed: Gaurav Rudravaram, June 11 2026
+Signed: Gaurav Rudravaram, June 11 2026 <br>
+Signed: Ema Topolnjak, June 11 2026
 
 ## 7.) Analytic Bounds on GAMLSS Model Variability of Normative White Matter Brain Charts
 
@@ -124,18 +128,19 @@ Signed: Gaurav Rudravaram, June 11 2026
 
 ![jmi_model_conf](figures/model_confidence_JMI.png)
 
-Raw data is backed up to Amazon Glacier (ADSP). Spreadsheet of metrics is at /valiant02/masi/kimm58/LifespanRevisions/all_centiles/wmlifespan_all_data.csv
+Raw data is backed up to Amazon Glacier (ADSP). Spreadsheet of metrics is at /valiant02/masi/kimm58/LifespanRevisions/all_centiles/_all_data.csv
 
 Paper submitted, not on Arxiv.
 
 Github:
-- New analytic method: https://github.com/MASILab/WMLifespan/tree/main/scripts/ModelConfidence/AnalyticWithRE
+- New analytic method: https://github.com/MASILab//tree/main/scripts/ModelConfidence/AnalyticWithRE
 - New empirical method (95% dropout): https://github.com/MASILab/WMLifespan/tree/main/scripts/ModelConfidence/Bootstrap/95_dropout
 - Deep Learning method: https://github.com/MASILab/WMLifespan/tree/main/scripts/ModelConfidence/DeepLearning
 
 (In submission to JMI) - We assessed stability of the charts with more data (resubmission data), including stability of centile scores, while also using a deep learning approximation as a negative control. We also highlighted the importance in using model variability assessments when preparing to conduct analyses (determining sample size to capture biological effects), and facilitate doing so through use of our charts.
 
-Signed: Gaurav Rudravaram, June 11 2026
+Signed: Gaurav Rudravaram, June 11 2026 <br>
+Signed: Ema Topolnjak, June 11 2026
 
 ## 9.) Enhancing Reproduciblity in Neuroimaging with Containerized Archival
 
@@ -153,7 +158,8 @@ Github: https://github.com/MASILab/Informatics_ADSP/tree/main/containerization
 
 (In revisions for Brain Imaging and Behavior) - We highlight issues with containerization in the field of neuroimaging in order to preserve methodology in long tail of science. To do so, we demonstrate a method for public archival of container images to ensure reproducibility and replicability of science. We follow with a discussion of alternative strategies for archival of containers.
 
-Signed: Gaurav Rudravaram, June 11 2026
+Signed: Gaurav Rudravaram, June 11 2026 <br>
+Signed: Ema Topolnjak, June 11 2026
 
 ## 10.) Independent contributions of Alzheimer's Disease and White Matter Polygenic Risk to White Matter Brain Chart Features
 
@@ -163,6 +169,7 @@ Github: https://github.com/MASILab/WM_genetics
 
 (Plannning to submit to Alz. and Dementia) - A paper testing the hypothesis that the genetic architecture of Alzheimer's diease and white matter both independently and significantly contribute to variaiblity in white matter centile scores. We found this to be true for microstructural measures of a few specific tracts that are known to have associations with Alzheimer's.
 
+Signed: Ema Topolnjak, June 11 2026
 
 ## 11.) QA Paper with Yihao (Yihao is corresponding author)
 
@@ -176,7 +183,8 @@ Github: https://github.com/MASILab/Diff_MRI_Harmonization/tree/main/nfs2_organiz
 
 (Submitted to JMI) - Characterization and how-to for QC of interdependent dMRI data processing pipelines.
 
-Signed: Gaurav Rudravaram, June 11 2026
+Signed: Gaurav Rudravaram, June 11 2026 <br>
+Signed: Ema Topolnjak, June 11 2026
 
 ## 12.) Slice Permutation of Medical Imaging Data Based on Body Part Regression (working title)
 
