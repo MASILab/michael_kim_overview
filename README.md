@@ -18,6 +18,8 @@ This was my first research project, looking at performance of the ComBat algorit
 
 ## 2.) Characterizing Low-cost Registration for Photographic Images to Computed Tomography
 
+![SPIE_NeRF](figures/spie_nerf.png)
+
 Github: https://github.com/MASILab/DeformableSurfaceReg.git
 
 Data: XNAT: NeRF_Surface_Landman: https://xnat.vanderbilt.edu/xnat/data/projects/NeRF_Surface_Landman
@@ -31,6 +33,8 @@ SPIE 2024 paper - A characterization of low-cost photogrammetry techniques for s
 
 ## 3.) Characterization of Neural Radiance Field-Based 3D Reconstruction of Organ Tissue Surfaces (technical paper)
 
+![organ_NeRF](figures/nerf_organs.png)
+
 Github: https://github.com/MASILab/DeformableSurfaceReg.git
 
 Data: XNAT: NeRF_Surface_Landman: https://xnat.vanderbilt.edu/xnat/data/projects/NeRF_Surface_Landman
@@ -41,6 +45,8 @@ Extension of SPIE 2024 - Characterization of NeRF-based techniques for reconstru
 
 ## 4.) Scalable, reproducible, and cost-effective processing of large-scale medical imaging datasets
 
+![spie_informatics](figures/spie_informatics.png)
+
 Github: https://github.com/MASILab/Informatics_ADSP.git
 
 Data: Used MASIVar (timing data is in repo as well)
@@ -50,6 +56,8 @@ SPIE 2025 - This paper is an overview paper for the ADSP processing methodology,
 Signed: Gaurav Rudravaram, June 11 2026
 
 ## 5.) Scalable quality control on processing of large diffusion-weighted and structural magnetic resonance imaging datasets
+
+![QA](figures/QA_paper.png)
 
 Github: https://github.com/MASILab/ADSP_AutoQA.git; (New version being maintained by Yihao: https://github.com/MASILab/masi-qa)
 
@@ -62,6 +70,8 @@ Extension of SPIE 2025 - This paper proposes a scalable method for performing qu
 Signed: Gaurav Rudravaram, June 11 2026
 
 ## 6.) White matter micro- and macrostructure brain charts for the human lifespan
+
+![lifespan](figures/lifespan.png)
 
 Github: https://github.com/MASILab/WMLifespan
 - `lifespan` contains the core code/functions for fitting, manipulating, OOS alignment, and extraction of the curves
@@ -87,6 +97,8 @@ Signed: Gaurav Rudravaram, June 11 2026
 
 ## 7.) Analytic Bounds on GAMLSS Model Variability of Normative White Matter Brain Charts
 
+![spie_analytic](figures/spie_model_confidence.png)
+
 Github: https://github.com/MASILab/WMLifespan/tree/main/scripts/ModelConfidence
 
 SPIE 2026 - We characterized the analytic and empirical (LOSO bootstrapping) stability of the WM brain chart trajectories across the lifespan. We found that the charts were highly stable.
@@ -94,6 +106,8 @@ SPIE 2026 - We characterized the analytic and empirical (LOSO bootstrapping) sta
 Signed: Gaurav Rudravaram, June 11 2026
 
 ## 8.) Charting Confidence in White Matter Brain Charts: Enabling Study Planniung Through Stability Validation
+
+![jmi_model_conf](figures/model_confidence_JMI.png)
 
 Github:
 - New analytic method: https://github.com/MASILab/WMLifespan/tree/main/scripts/ModelConfidence/AnalyticWithRE
@@ -104,6 +118,8 @@ Github:
 
 
 ## 9.) Enhancing Reproduciblity in Neuroimaging with Containerized Archival
+
+![containerization](figures/containerization.png)
 
 Github: https://github.com/MASILab/Informatics_ADSP/tree/main/containerization
 - also these Zenodo pages:
@@ -117,12 +133,16 @@ Signed: Gaurav Rudravaram, June 11 2026
 
 ## 10.) Independent contributions of Alzheimer's Disease and White Matter Polygenic Risk to White Matter Brain Chart Features
 
+![wm_genetics](figures/wm_genetics.png)
+
 Github: https://github.com/MASILab/WM_genetics
 
 (Plannning to submit to Alz. and Dementia) - A paper testing the hypothesis that the genetic architecture of Alzheimer's diease and white matter both independently and significantly contribute to variaiblity in white matter centile scores. We found this to be true for microstructural measures of a few specific tracts that are known to have associations with Alzheimer's.
 
 
 ## 11.) QA Paper with Yihao (Yihao is corresponding author)
+
+![qa_yihao](figures/qa_yihao.png)
 
 Github: https://github.com/MASILab/Diff_MRI_Harmonization/tree/main/nfs2_organization_scripts/Yihao_QA
 
@@ -132,12 +152,16 @@ Signed: Gaurav Rudravaram, June 11 2026
 
 ## 12.) Slice Permutation of Medical Imaging Data Based on Body Part Regression (working title)
 
+![slice_permutation](figures/reordering.png)
+
 Github: https://github.com/MASILab/slice_permutation_BPR
 
 (WIP - will try to submit to SPIE 2027) - A proposed method for detecting when slices in medical images are misordered and then properly aligning them, with the idea that the tool can be used as a QC sanity check for clinical images. Preliminary results are promising, but we will have to see.
 
 
 ## EXTRA: Thalamus Connectivity Collaboration with Dr. Englot's group
+
+![thalamus](figures/thalamus_fig.png)
 
 Github: https://github.com/MASILab/WM_genetics/tree/main/scripts/test/thalamus
 
