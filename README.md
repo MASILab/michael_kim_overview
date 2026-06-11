@@ -1,5 +1,5 @@
 # michael_kim_overview
-Overview of all projects by Michael Kim (kimm58)
+Overview of all projects by Michael Kim (kimm58) for the dissertation, "Efficient Large Scale Informatics for Diffusion Magnetic Resonance Imaging in Alzheimer's Disease"
 
 
 
@@ -46,11 +46,76 @@ Data: Used MASIVar (timing data is in repo as well)
 SPIE 2025 - This paper is an overview paper for the ADSP processing methodology, descibing how we designed our data storage and processing to fit within specified design criteria of large-scale neuroimaging data maintenance. The criteria include (but are not limited to) efficiency, cost-effectiveness, and reproducibility. We demonstrate how our method performs similarly to other options while maintaining a nearly 20x lower cost-performance ratio, while remaining low complexity on our end for manual effort.
 
 
+## 5.) Scalable quality control on processing of large diffusion-weighted and structural magnetic resonance imaging datasets
+
+Github: https://github.com/MASILab/ADSP_AutoQA.git; (New version being maintained by Yihao: https://github.com/MASILab/masi-qa)
+
+PNG generation code: https://github.com/MASILab/Diff_MRI_Harmonization/tree/main/nfs2_organization_scripts
+
+Data used: backup via amazon (ADSP)
+
+
+Extension of SPIE 2025 - This paper proposes a scalable method for performing quality control on raw/derived medical imaging data based on a QC app that allows users to rapidly cycle through images and make QC decisions while structuring results in a standardized format. We assess inter-rater variability of the method as well as a comparison to an automated classifier, observing mostly low inter rater variability and comparable performance to the automated classifier except in a few key scenarios. 
+
+
+## 6.) White matter micro- and macrostructure brain charts for the human lifespan
+
+Github: https://github.com/MASILab/WMLifespan
+- `lifespan` contains the core code/functions for fitting, manipulating, OOS alignment, and extraction of the curves
+- `scripts` contains all the scripts/python notebooks used to run analyses using the base `lifespan` code
+  - `dataset_organization` contains code that was used to organize a good deal of the datasets for this project (and beyond)
+    - A lot of the remaining code for organization can be found here: https://github.com/MASILab/Diff_MRI_Harmonization/tree/main/nfs2_organization_scripts
+  - `Tractseg_Scripts` and `FSWMmask_scripts` has a lot of the preprocessing code for extracting features and aggregating the major CSV
+  - `LifespanExtension` subdirectory contains the base code for the original Journal submission
+  - `LifespanRevisions` subdirectory contains the code for the rebuttal/revisions
+
+The Docker for the brain charts and the alignment process can be found here: https://zenodo.org/records/15367425
+
+The post-processing Docker container documentation is here: https://zenodo.org/records/17144461
+- the github repo for the container (please pull from Dockerhub, do NOT rebuild) is here: https://github.com/MASILab/WMLifespan_postprocessing_code
+- the docker is here: https://hub.docker.com/r/kimm58/wm_lifespan_processing
+- the preprocessing was done via PreQual: https://zenodo.org/records/18624309
+
+Public data release (data that we got approval to release publicly): https://zenodo.org/records/18891848
+
+Nature - We made microstructural and macrostrucutral brain charts for the Human lifespan from 0 to 100 years of age for 72 different WM tracts in the brain. We showed their utility in identifying normative population trajectories for white matter, testing neurobiological hypotheses, and performing anomaly detection. We also publicly released the charts as well as a method for out-of-sample dataset alignment on Zenodo as a docker container.
+
+
+## 7.) Analytic Bounds on GAMLSS Model Variability of Normative White Matter Brain Charts
+
+Github: https://github.com/MASILab/WMLifespan/tree/main/scripts/ModelConfidence
+
+SPIE 2026 - We characterized the analytic and empirical (LOSO bootstrapping) stability of the WM brain chart trajectories across the lifespan. We found that the charts were highly stable.
+
+
+## 8.) Charting Confidence in White Matter Brain Charts: Enabling Study Planniung Through Stability Validation
+
+Github:
+- New analytic method: https://github.com/MASILab/WMLifespan/tree/main/scripts/ModelConfidence/AnalyticWithRE
+- New empirical method (95% dropout): https://github.com/MASILab/WMLifespan/tree/main/scripts/ModelConfidence/Bootstrap/95_dropout
+- Deep Learning method: https://github.com/MASILab/WMLifespan/tree/main/scripts/ModelConfidence/DeepLearning
+
+(In submission to JMI) - We assessed stability of the charts with more data (resubmission data), including stability of centile scores, while also using a deep learning approximation as a negative control. We also highlighted the importance in using model variability assessments when preparing to conduct analyses (determining sample size to capture biological effects), and facilitate doing so through use of our charts.
+
+
+## 9.) Enhancing Reproduciblity in Neuroimaging with Containerized Archival
+
+Github: https://github.com/MASILab/Informatics_ADSP/tree/main/containerization
+- also these Zenodo pages:
+  - https://zenodo.org/records/18624262
+  - https://zenodo.org/records/18513211
+  - https://zenodo.org/records/18624309
+
+(In revisions for Brain Imaging and Behavior) - 
+
+
 ## EXTRA: ADSP/R01 Diffusion Data Organization
 
 Github: https://github.com/MASILab/Diff_MRI_Harmonization.git (and R01_Data_Organization)
 
 Organized and preprocessed the majority of the datasets for the ADSP/R01 grants. Created a script generator that allows for easy and standardized preprocessing of data on ACCRE (or locally as well), given that data is in BIDS format. Also created a few query tools that do various tasks, such as summarize the preprocessing that has been run, number of shells, etc.
+
+
 
 
 ## EXTRA: Auto QA of ADSP Processing Pipelines (script generator included)
