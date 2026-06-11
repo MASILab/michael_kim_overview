@@ -5,6 +5,8 @@ Overview of all projects by Michael Kim (kimm58) for the dissertation, "Efficien
 
 ## 1.) An Empirical Assessment of the Assumptions of ComBat with Diffusion Tensor Imaging
 
+![ComBat](figures/combat.png)
+
 Github: https://github.com/MASILab/Diff_MRI_Harmonization.git
 
 Data: backup via amazon (ADSP)
