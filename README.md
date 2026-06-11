@@ -67,7 +67,8 @@ Data used: backup via amazon (ADSP)
 
 Extension of SPIE 2025 - This paper proposes a scalable method for performing quality control on raw/derived medical imaging data based on a QC app that allows users to rapidly cycle through images and make QC decisions while structuring results in a standardized format. We assess inter-rater variability of the method as well as a comparison to an automated classifier, observing mostly low inter rater variability and comparable performance to the automated classifier except in a few key scenarios. 
 
-Signed: Gaurav Rudravaram, June 11 2026
+Signed: Gaurav Rudravaram, June 11 2026 <br>
+Signed: Ema Topolnjak, June 11 2026
 
 ## 6.) White matter micro- and macrostructure brain charts for the human lifespan
 
