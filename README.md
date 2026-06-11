@@ -106,7 +106,37 @@ Github: https://github.com/MASILab/Informatics_ADSP/tree/main/containerization
   - https://zenodo.org/records/18513211
   - https://zenodo.org/records/18624309
 
-(In revisions for Brain Imaging and Behavior) - 
+(In revisions for Brain Imaging and Behavior) - We highlight issues with containerization in the field of neuroimaging in order to preserve methodology in long tail of science. To do so, we demonstrate a method for public archival of container images to ensure reproducibility and replicability of science. We follow with a discussion of alternative strategies for archival of containers.
+
+
+## 10.) Independent contributions of Alzheimer's Disease and White Matter Polygenic Risk to White Matter Brain Chart Features
+
+Github: https://github.com/MASILab/WM_genetics
+
+(Plannning to submit to Alz. and Dementia) - A paper testing the hypothesis that the genetic architecture of Alzheimer's diease and white matter both independently and significantly contribute to variaiblity in white matter centile scores. We found this to be true for microstructural measures of a few specific tracts that are known to have associations with Alzheimer's.
+
+
+## 11.) QA Paper with Yihao (Yihao is corresponding author)
+
+Github: https://github.com/MASILab/Diff_MRI_Harmonization/tree/main/nfs2_organization_scripts/Yihao_QA
+
+(Submitted to JMI) - Characterization and how-to for QC of interdependent dMRI data processing pipelines.
+
+
+## 12.) Slice Permutation of Medical Imaging Data Based on Body Part Regression (working title)
+
+Github: https://github.com/MASILab/slice_permutation_BPR
+
+(WIP - will try to submit to SPIE 2027) - A proposed method for detecting when slices in medical images are misordered and then properly aligning them, with the idea that the tool can be used as a QC sanity check for clinical images. Preliminary results are promising, but we will have to see.
+
+
+## EXTRA: Thalamus Connectivity Collaboration with Dr. Englot's group
+
+Github: https://github.com/MASILab/WM_genetics/tree/main/scripts/test/thalamus
+
+I built a thalamus connectivity pipeline for the Englot group, which has the following steps: 1) T1+DTI segmentation of thalamus sub-nuclei using probabilistic segmentation algorithm from FreeSurfer, 2) ACT whole brain tractography (10 mill streamlines) with SIFT2 streamline weighting, where the FODs are normalized with MRtrix, 3) Extraction of streamlines that pass through subthalamic nuclei, and 4) SIFT2-weighted connectivity of the thalamic subnuclei to regions of the DK and SLANT atlases.
+
+This is currently a part of the MASI snakemake workflow.
 
 
 ## EXTRA: ADSP/R01 Diffusion Data Organization
@@ -114,8 +144,6 @@ Github: https://github.com/MASILab/Informatics_ADSP/tree/main/containerization
 Github: https://github.com/MASILab/Diff_MRI_Harmonization.git (and R01_Data_Organization)
 
 Organized and preprocessed the majority of the datasets for the ADSP/R01 grants. Created a script generator that allows for easy and standardized preprocessing of data on ACCRE (or locally as well), given that data is in BIDS format. Also created a few query tools that do various tasks, such as summarize the preprocessing that has been run, number of shells, etc.
-
-
 
 
 ## EXTRA: Auto QA of ADSP Processing Pipelines (script generator included)
