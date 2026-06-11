@@ -44,7 +44,9 @@ Data: XNAT: NeRF_Surface_Landman: https://xnat.vanderbilt.edu/xnat/data/projects
 
 
 Extension of SPIE 2024 - Characterization of NeRF-based techniques for reconstruction of human organ tissue surfaces. We assess multiple points in the processing pipeline (image acquisition and surface reconstruction) to determine what aspects of organ surfaces make reconstruction difficult and what solutions work best to optimize surface reconvery. We find that addition of external features in the image scene help with feature matching of the images, particularly when only adding a few eternal fiducials. We also find that modification of the specular estimator of the nerf2mesh implementation did not provide better surface recovery. However, having a high laplacian regularization helps remove/alleviate areas of low-density estimation. Building a shape model to fix the estimated density field also did not provide a successful solution.
-Signed: Gaurav Rudravaram, June 11 2026
+
+Signed: Gaurav Rudravaram, June 11 2026 <br>
+Signed: Ema Topolnjak, June 11 2026
 
 
 ## 4.) Scalable, reproducible, and cost-effective processing of large-scale medical imaging datasets
@@ -122,7 +124,8 @@ Paper: https://pubmed.ncbi.nlm.nih.gov/41659596/
 
 SPIE 2026 - We characterized the analytic and empirical (LOSO bootstrapping) stability of the WM brain chart trajectories across the lifespan. We found that the charts were highly stable.
 
-Signed: Gaurav Rudravaram, June 11 2026
+Signed: Gaurav Rudravaram, June 11 2026 <br>
+Signed: Ema Topolnjak, June 11 2026
 
 ## 8.) Charting Confidence in White Matter Brain Charts: Enabling Study Planniung Through Stability Validation
 
@@ -207,7 +210,9 @@ I built a thalamus connectivity pipeline for the Englot group, which has the fol
 
 This is currently a part of the MASI snakemake workflow.
 
-Signed: Gaurav Rudravaram, June 11 2026
+Signed: Gaurav Rudravaram, June 11 2026 <br>
+Signed: Ema Topolnjak, June 11 2026
+
 ## EXTRA: ADSP/R01 Diffusion Data Organization
 
 Github: https://github.com/MASILab/Diff_MRI_Harmonization.git (and R01_Data_Organization)
@@ -215,6 +220,7 @@ Github: https://github.com/MASILab/Diff_MRI_Harmonization.git (and R01_Data_Orga
 Organized and preprocessed the majority of the datasets for the ADSP/R01 grants. Created a script generator that allows for easy and standardized preprocessing of data on ACCRE (or locally as well), given that data is in BIDS format. Also created a few query tools that do various tasks, such as summarize the preprocessing that has been run, number of shells, etc.
 
 Signed: Gaurav Rudravaram, June 11 2026
+
 ## EXTRA: Auto QA of ADSP Processing Pipelines (script generator included)
 
 Github: https://github.com/MASILab/ADSP_AutoQA.git 
