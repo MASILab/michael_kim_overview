@@ -127,6 +127,7 @@ Github:
 
 (In submission to JMI) - We assessed stability of the charts with more data (resubmission data), including stability of centile scores, while also using a deep learning approximation as a negative control. We also highlighted the importance in using model variability assessments when preparing to conduct analyses (determining sample size to capture biological effects), and facilitate doing so through use of our charts.
 
+Signed: Gaurav Rudravaram, June 11 2026
 
 ## 9.) Enhancing Reproduciblity in Neuroimaging with Containerized Archival
 
