@@ -15,7 +15,8 @@ Paper: https://www.spiedigitallibrary.org/journals/journal-of-medical-imaging/vo
 
 This was my first research project, looking at performance of the ComBat algorithm for site-wise harmonization when using Diffusion MRI data. We assessed performance using a well-matched dataset from two different sites (VMAP, BLSA) as a baseline, then performed a bootstap analysis of how varying sample size, sample size imbalance, and covariate shift/overlap affect the estimates of association of Age with fractional anisotropy (FA) and mean diffusivity (MD), and the site-estimated shift and scale of the harmonized features (which were the FA/MD of regions in the EVE3 WMAtlas). Our analyses demonstated that ComBat performance is worse than expected for diffusion MRI data (i.e. need a larger sample size and tighter covariate overlap) in order to get estimates from ComBat that do not deviate too far from the well-matched scenario. 
 
-Signed: Gaurav Rudravaram, June 11 2026
+Signed: Gaurav Rudravaram, June 11 2026 <br>
+Signed: Ema Topolnjak, June 11 2026
 
 ## 2.) Characterizing Low-cost Registration for Photographic Images to Computed Tomography
 
@@ -219,7 +220,8 @@ Github: https://github.com/MASILab/Diff_MRI_Harmonization.git (and R01_Data_Orga
 
 Organized and preprocessed the majority of the datasets for the ADSP/R01 grants. Created a script generator that allows for easy and standardized preprocessing of data on ACCRE (or locally as well), given that data is in BIDS format. Also created a few query tools that do various tasks, such as summarize the preprocessing that has been run, number of shells, etc.
 
-Signed: Gaurav Rudravaram, June 11 2026
+Signed: Gaurav Rudravaram, June 11 2026 <br>
+Signed: Ema Topolnjak, June 11 2026
 
 ## EXTRA: Auto QA of ADSP Processing Pipelines (script generator included)
 
