@@ -45,6 +45,7 @@ Data: Used MASIVar (timing data is in repo as well)
 
 SPIE 2025 - This paper is an overview paper for the ADSP processing methodology, descibing how we designed our data storage and processing to fit within specified design criteria of large-scale neuroimaging data maintenance. The criteria include (but are not limited to) efficiency, cost-effectiveness, and reproducibility. We demonstrate how our method performs similarly to other options while maintaining a nearly 20x lower cost-performance ratio, while remaining low complexity on our end for manual effort.
 
+Signed: Gaurav Rudravaram, June 11 2026
 
 ## 5.) Scalable quality control on processing of large diffusion-weighted and structural magnetic resonance imaging datasets
 
@@ -54,9 +55,9 @@ PNG generation code: https://github.com/MASILab/Diff_MRI_Harmonization/tree/main
 
 Data used: backup via amazon (ADSP)
 
-
 Extension of SPIE 2025 - This paper proposes a scalable method for performing quality control on raw/derived medical imaging data based on a QC app that allows users to rapidly cycle through images and make QC decisions while structuring results in a standardized format. We assess inter-rater variability of the method as well as a comparison to an automated classifier, observing mostly low inter rater variability and comparable performance to the automated classifier except in a few key scenarios. 
 
+Signed: Gaurav Rudravaram, June 11 2026
 
 ## 6.) White matter micro- and macrostructure brain charts for the human lifespan
 
@@ -80,6 +81,7 @@ Public data release (data that we got approval to release publicly): https://zen
 
 Nature - We made microstructural and macrostrucutral brain charts for the Human lifespan from 0 to 100 years of age for 72 different WM tracts in the brain. We showed their utility in identifying normative population trajectories for white matter, testing neurobiological hypotheses, and performing anomaly detection. We also publicly released the charts as well as a method for out-of-sample dataset alignment on Zenodo as a docker container.
 
+Signed: Gaurav Rudravaram, June 11 2026
 
 ## 7.) Analytic Bounds on GAMLSS Model Variability of Normative White Matter Brain Charts
 
@@ -87,6 +89,7 @@ Github: https://github.com/MASILab/WMLifespan/tree/main/scripts/ModelConfidence
 
 SPIE 2026 - We characterized the analytic and empirical (LOSO bootstrapping) stability of the WM brain chart trajectories across the lifespan. We found that the charts were highly stable.
 
+Signed: Gaurav Rudravaram, June 11 2026
 
 ## 8.) Charting Confidence in White Matter Brain Charts: Enabling Study Planniung Through Stability Validation
 
@@ -108,6 +111,7 @@ Github: https://github.com/MASILab/Informatics_ADSP/tree/main/containerization
 
 (In revisions for Brain Imaging and Behavior) - We highlight issues with containerization in the field of neuroimaging in order to preserve methodology in long tail of science. To do so, we demonstrate a method for public archival of container images to ensure reproducibility and replicability of science. We follow with a discussion of alternative strategies for archival of containers.
 
+Signed: Gaurav Rudravaram, June 11 2026
 
 ## 10.) Independent contributions of Alzheimer's Disease and White Matter Polygenic Risk to White Matter Brain Chart Features
 
@@ -122,6 +126,7 @@ Github: https://github.com/MASILab/Diff_MRI_Harmonization/tree/main/nfs2_organiz
 
 (Submitted to JMI) - Characterization and how-to for QC of interdependent dMRI data processing pipelines.
 
+Signed: Gaurav Rudravaram, June 11 2026
 
 ## 12.) Slice Permutation of Medical Imaging Data Based on Body Part Regression (working title)
 
@@ -138,23 +143,25 @@ I built a thalamus connectivity pipeline for the Englot group, which has the fol
 
 This is currently a part of the MASI snakemake workflow.
 
-
+Signed: Gaurav Rudravaram, June 11 2026
 ## EXTRA: ADSP/R01 Diffusion Data Organization
 
 Github: https://github.com/MASILab/Diff_MRI_Harmonization.git (and R01_Data_Organization)
 
 Organized and preprocessed the majority of the datasets for the ADSP/R01 grants. Created a script generator that allows for easy and standardized preprocessing of data on ACCRE (or locally as well), given that data is in BIDS format. Also created a few query tools that do various tasks, such as summarize the preprocessing that has been run, number of shells, etc.
 
-
+Signed: Gaurav Rudravaram, June 11 2026
 ## EXTRA: Auto QA of ADSP Processing Pipelines (script generator included)
 
 Github: https://github.com/MASILab/ADSP_AutoQA.git
 
 Code for automated QA of processing pipelines in the ADSP/R01 project. There are 4 ideas/problems that this tool is trying to address: 1.) Promote consistency of data QA, so that everyone on the team is performing QA in the same way. 2.) Facilitates aggregation of QA results across pipelines and datasets, as changes are automatically pushed to a CSV file that indicates the QA status. Not only does this reduce the manual effort in keeping track of the QA status of processing, but makes it easier to share QA results within lab and with collaborators who use the data. 3.) Gives us a structured organization for the QA of our pipelines/datasets, so that we can easily combine the QA results of multiple pipelines/datasets together. Finally, 4.) it provides a nice graphical user interface for reporting the QA status.
 
-
+Signed: Gaurav Rudravaram, June 11 2026
 ## EXTRA: Atlas Registration from T1 space to Diffusion Space
 
 Github: https://github.com/MASILab/AtlasToDiffusionReg
 
 Created a singularity for deformably registering an atlas to a diffusion scan of a subject using ANTs, fsl, c3d, etc. Requires a T1, a segmentation of the T1 (SLANT preferrably), the preprocessed DWI scan, the structural template and the labelmap/atals, and label files for both the segmentation and the labelmap/atlas. Outputs the transformations and registered atlas, as well as a CSV of the mean, median, and stdev of the tensor metrics for FA, MD, AD, RD.
+
+Signed: Gaurav Rudravaram, June 11 2026
