@@ -173,6 +173,7 @@ Github: https://github.com/MASILab/WM_genetics
 
 (Plannning to submit to Alz. and Dementia) - A paper testing the hypothesis that the genetic architecture of Alzheimer's diease and white matter both independently and significantly contribute to variaiblity in white matter centile scores. We found this to be true for microstructural measures of a few specific tracts that are known to have associations with Alzheimer's.
 
+Signed: Gaurav Rudravaram, June 12 2026
 Signed: Ema Topolnjak, June 11 2026
 
 ## 11.) QA Paper with Yihao (Yihao is corresponding author)
